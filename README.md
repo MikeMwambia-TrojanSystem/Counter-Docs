@@ -1,24 +1,23 @@
-# Counter-Docs
+# Counter
 
 
-Self custody peer to peer ethereum market place
-It is made up of 6 scalable services and couchdb to hold sessions
+Self custody peer to peer Ethereum market place
+See it in action at https://comingsoon.network/
 
-Services on POKT
+The goal is to provide a self custody settlement layer for peer to peer transactions.
 
--Confirmation service - confirmation - this exposes the endpoint that the payment provider write the receipt that have been paid
+The seven modules powering this settlement layer are :-
 
--Signer service - signer - this is the service that signs the ethereum amount and releases it to the buyer's wallet transaction when fiat payment is made nd confirmed by confirmation service
-The rpc provider is api.pocket.network
+-Confirmation service -  this exposes an endpoint for the payment gateway to write the receipt for payment that has been made,through fiat and for what crypto in this case Eth.
 
--Generator service - generator - This service takes a 12 word seed phrase and uses the phrase to generate an ethereum wallet that acts as a treasury/wallet address.The rpc provider is api.pocket.network
+-Signer service - this is the service that signs the Eth amount that has been bought.The rpc provider is api.pocket.network
 
--Heart Beat  - heartbeat - This service keeps a pulse on the entire RPC health by ensuring a blocknumber and restarting the provider if it fails.It acts a authentication middleware,generating request signatures.The rpc provider is api.pocket.network
+-Generator service - this service allows for generation of wallet address.Currently supporting Ethereum chain and has the ability to support more chains hence more tokens.
 
-Services not POKT
+-Heart Beat  - this service keeps system monitored ensuring a RPC pulse every 5 secs,Validates orders and generates signatures.
 
--API service - apicontainer - this exposes the endpoints that handle most CRUD operations
+-API service - this exposes the endpoints that handle all CRUD operations.
 
--CouchDB - couchdb - for persistence data storage - majorly consumed by API service 
+-CouchDB - for persistence data storage - majorly consumed by API service .
 
-
+The entire system RPC is powered by https://api.pocket.network/
