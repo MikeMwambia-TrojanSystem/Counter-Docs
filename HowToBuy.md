@@ -31,5 +31,5 @@ To move from step 4 above to this step the buyer makes payment to the required a
 NB:- The system is able to recieve notification of payments recieved by the payment gateway and process them accordingly updating order and releasing funds to the right address.
 
 ### Step 6 :- 
-On this step the order will be confirmed showing the address that has recieved the Ethereum the amount and the money in KES that has been paid for it.
+On this step the order will be confirmed showing the address that has recieved the Ethereum,the amount and the money in KES that has been paid for it.
 All RPC request are powered by https://api.pocket.network

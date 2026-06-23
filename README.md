@@ -1,7 +1,7 @@
 # Counter
 
-Self custody peer to peer Ethereum market place
-See it in action at https://ethereum.mzynga.com/
+Self custody peer to peer Ethereum market place.
+This system currently supports accounts of type MPESA Paybill and Ethereum Token on Ethereum Mainnet.
 
 The target user of this platform are individuals who want to sell and buy ethereum.
 See the guides below :-
@@ -14,7 +14,7 @@ The seven modules powering this settlement layer are :-
 
 -Confirmation service -  this exposes an endpoint for the payment gateway to write the receipt for payment that has been made,through fiat and for what crypto in this case Eth.
 
--Signer service - this is the service that signs the Eth amount that has been bought.The rpc provider is api.pocket.network
+-Signer service - this is the service that signs the Eth amount that has been bought.The rpc provider is https://api.pocket.network
 
 -Generator service - this service allows for generation of wallet address.Currently supporting Ethereum chain and has the ability to support more chains hence more tokens.
 
