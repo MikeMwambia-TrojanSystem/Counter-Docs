@@ -1,32 +1,34 @@
-## welcome.jsx
+## welcome
 
 **Route:** `/welcome`
+
 **Purpose:** Landing screen confirming desk identity and config before setup of dashboard begins.
 
 **Props**
-<!-- fill in: does this component accept props, or pull everything from route/context? -->
+None atm
 
 **State**
-<!-- fill in: local state variables and what they hold -->
+None atm
 
 **Data displayed**
-| Field | Example shown | Source `<!-- fill in: hardcoded / query param / fetched -->` |
+| Field | Example shown | Source |
 |---|---|---|
-| Desk name | Kang'ethe OTC desk Test 1 | |
-| Confirmed URL | https://kangethe.counter.co.ke | |
+| Desk name | David OTC desk Test 1 | |
+| Confirmed URL | https://example.counter.co.ke | |
 | Supported assets | Ethereum Token on Ethereum Network | |
-| Daily KES volume cap | 150,000 | |
+| Daily KES cap | 150,000 | |
 
 **API calls**
-<!-- fill in: endpoint(s) called on mount or on submit, request/response shape -->
+None atm
 
 **Actions**
 | Control | Behavior |
 |---|---|
-| Continue | <!-- fill in: navigates to which route, any side effects? --> |
+| Continue | Navigates to `/termsandcondtions`|
 
 **Validation**
-<!-- fill in: any conditions that block Continue -->
-
+ None
 **Known issues / open questions**
-<!-- fill in -->
+ None
+
+ See https://counter-ui-delta.vercel.app/welcome subject to change
