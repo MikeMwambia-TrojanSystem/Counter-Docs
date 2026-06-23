@@ -11,12 +11,14 @@ None atm
 None atm
 
 **Data displayed**
-| Field | Example shown | Source |
-|---|---|---|
-| Desk name | David OTC desk Test 1 | https://github.com/orgs/Mzynga-Tech-Department/repositories |
+| Field | Example shown |
+| Desk name | David OTC desk Test 1 |
 | Confirmed URL | https://example.counter.co.ke |
 | Supported assets | Ethereum Token on Ethereum Network |
 | Daily KES cap | 150,000 |
+
+**Source**
+https://github.com/MikeMwambia-TrojanSystem/UI-Counter/blob/main/src/pages/welcome.jsx
 
 **API calls**
 None atm
@@ -24,7 +26,7 @@ None atm
 **Actions**
 | Control | Behavior |
 |---|---|
-| Continue | Navigates to `/termsandcondtions`|
+| Continue |  `/termsandcondtions`|
 
 **Validation**
  None
