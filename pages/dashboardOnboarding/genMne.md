@@ -22,9 +22,9 @@ None
 * private_key
 
 **Data displayed:**
-- Warning copy: phrase is the foundation of the wallet; whoever holds it controls the treasury.
-- Explicit note: phrase is **not stored** by the platform, cannot be recovered if lost.
-- Ethereum Address: Treasury address that is generated from the mnemonic phrase above
+- Warning copy:  Phrase is the foundation of the wallet; whoever holds it controls the treasury.
+- Explicit note:  Phrase is **not stored** by the platform, cannot be recovered if lost.
+- Ethereum Address:  Treasury address that is generated from the mnemonic phrase above
 
 **API calls**
 https://api.mzynga.com/getAddress
