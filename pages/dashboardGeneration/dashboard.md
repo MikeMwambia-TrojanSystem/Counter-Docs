@@ -1,37 +1,49 @@
-## order3.jsx
+## dashboard
 
 **Route:** `/dashboard`
-**Purpose:** Displays locked order details and payment instructions; order enters pending state.
+
+**Purpose:** 
+Displays infomation about the dashboard and the sell orders that are open to the public
 
 **Props**
-<!-- fill in -->
+Requires a block number and an authentication signature
+MainDashboard component
 
 **State**
-<!-- fill in: order ID, payment status -->
+Requires an active dashboard state
 
 **Data displayed**
 | Field | Example shown |
 |---|---|
-| Ethereum price for this transaction | Ksh 245,000 |
-| Payment amount | Ksh 18,500 |
-| Paybill number | 4107329 |
-| Receiving ETH amount | 0.5 Eth |
-| Receiving address | pokt132v39vh24y7z8hyhs43fq5pezuasfmt2smq3gl |
-| Account number (for paybill payment) | ORDER2354 |
-| Order status | PENDING PAYMENT |
+| Counter name | counter_name |
+| Dollar rate | Ksh 130 |
+| Price in Kshs | 345,678 |
+| Avialable Bal | 0.5 Eth |
+| Valued at Kshs | 345,658 |
+| Max. buy | 150,000 |
+| Min. buy | 1,500 |
+| Creation Time | 20:00 PM |
+| Expiry Time | 02:00 AM |
 
 **API calls**
-<!-- fill in: is order locked/created via an API call on this page load, or was it created in order2? does this page poll for payment confirmation? -->
+https://api.mzynga.com/getactivedashboard
 
 **Actions**
 | Control | Behavior |
 |---|---|
-| Next (implied — "click next to enter mpesa payment code") | <!-- fill in: navigates to order4 --> |
+| Buy | `/order` |
 
 **Validation**
-N/A — display-only screen, no inputs.
+RPC Health check every 5 seconds
 
 **Known issues / open questions**
-<!-- fill in: confirm how long an order stays "locked" before expiring if payment isn't made -->
+ - Pending Testing
 
----
+See https://counter-ui-delta.vercel.app/dashboard 
+Subject to change
+
+Source https://github.com/MikeMwambia-TrojanSystem/UI-Counter/blob/main/src/pages/dashboard.jsx
+
+RPC is powered by https://api.pocket.network
+
+
