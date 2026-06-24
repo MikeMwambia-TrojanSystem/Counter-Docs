@@ -3,12 +3,12 @@
 **Route:** `/editDashboard`
 
 **Purpose:** 
-Allows the user to change the information about the dashboard,some information are not editable.
+Allows the user to change the information about the dashboard,some information is not editable.
 
-**Props**
+**Props:**
 Requires dashboard ID from the url.
 
-**State**
+**State:**
 None ATM
 
 **Data displayed**
@@ -27,10 +27,10 @@ None ATM
 |---|---|
 | Update Dashboard | `/listDashboard` |
 
-**Validation**
+**Validation:**
 All inputs are validated
 
-**Known issues / open questions**
+**Known issues / open questions:**
 Pending testing
 
 See https://counter-ui-delta.vercel.app/editDashboard 
