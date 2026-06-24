@@ -1,16 +1,16 @@
-## dashboard
+## Dashboard
 
 **Route:** `/dashboard`
 
 **Purpose:** 
-Displays infomation about the dashboard and the sell orders that are open to the public
+Displays infomation about the dashboard and the sell orders that are open to the public.
 
 **Props:**
-Requires a block number and an authentication signature
+Requires a block number and an authentication signature.
 MainDashboard component
 
 **State:**
-Requires an active dashboard state
+Requires an active dashboard state.
 
 **Data displayed**
 | Field | Example shown |
@@ -33,13 +33,13 @@ https://api.mzynga.com/getactivedashboard
 |---|---|
 | Buy | `/order` |
 
-**Validation**
+**Validation:**
 RPC Health check every 5 seconds
 
-**Known issues / open questions**
+**Known issues / open questions:**
  - Pending Testing
 
-See https://counter-ui-delta.vercel.app/dashboard 
+**See** https://counter-ui-delta.vercel.app/dashboard 
 Subject to change
 
 Source https://github.com/MikeMwambia-TrojanSystem/UI-Counter/blob/main/src/pages/dashboard.jsx
