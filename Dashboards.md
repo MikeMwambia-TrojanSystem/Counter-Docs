@@ -15,7 +15,7 @@ RPC is provided by https://api.pocket.network
 
 ### Managing dashboard
 
-Managing a dashboard can be done from [Edit Dashboard page](/dashboardGeneration/editDashboard)
+Managing a dashboard can be done from [Edit Dashboard page](pages/dashboardGeneration/editDashboard.md)
 
 
 
