@@ -4,7 +4,6 @@
 
 **Purpose:** 
 Displays dashboard specific information about:
-
 - Assigned dashboard name - dashboardname
 * Configured paybill account - paybill
 * Dollar(assuming it's priced in $) to KES exchange rate - dollar_rate
@@ -15,7 +14,7 @@ Displays dashboard specific information about:
 * Minimum purchase in KES - minimum_buy_kshs
 
 **Props:**
-None ATM
+* None ATM
 
 **State:**
 * treasurySt
