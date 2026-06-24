@@ -39,7 +39,8 @@ Ethers.js
 | Generate mnemonic phrase | Displays the mnemonic phrase on the page |
 
 **Validation:**
-You must generate a wallet address before submitting the page.
+
+You **must** generate a wallet address before submitting the page.
 The generated address is combined with the url id and saved as part of dashbord information.
 
 **Security notes:**
