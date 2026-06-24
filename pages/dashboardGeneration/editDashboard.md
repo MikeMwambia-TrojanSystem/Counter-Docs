@@ -1,4 +1,4 @@
-## editDashboard
+## EditDashboard
 
 **Route:** `/editDashboard`
 
@@ -28,10 +28,10 @@ None ATM
 | Update Dashboard | `/listDashboard` |
 
 **Validation:**
-All inputs are validated
+All inputs are validated.
 
 **Known issues / open questions:**
-Pending testing
+Pending testing.
 
 See https://counter-ui-delta.vercel.app/editDashboard 
 Subject to change
