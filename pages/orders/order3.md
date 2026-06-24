@@ -9,7 +9,7 @@ Displays locked order details and payment instructions; Order enters pending sta
 
 Takes the order ID from url.
 
-**State:**
+**State**
 
 None ATM.
 
@@ -34,7 +34,7 @@ https://api.mzynga.com/readorder?id=${_id}
 
 **Validation:**
 
-N/A — display-only screen, no inputs.
+* N/A — display-only screen, no inputs.
 
 **Known issues / open questions:**
 
