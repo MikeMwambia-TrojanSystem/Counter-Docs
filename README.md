@@ -5,7 +5,9 @@ This system currently supports accounts of type MPESA Paybill and Ethereum Token
 
 The target user of this platform are individuals who want to sell and buy ethereum.
 See the guides below :-
+
 [How to buy](HowToBuy.md)
+
 [How to sell](HowToSell.md)
 
 The goal is to provide a self custody settlement layer for peer to peer transactions.
