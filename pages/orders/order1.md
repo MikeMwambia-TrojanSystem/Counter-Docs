@@ -17,8 +17,8 @@ None atm
 | KES amount to spend | (free input) | numeric | yes |
 
 **Data displayed:**
-- Maximum buy per transaction (Kshs) — pulled from dashboard config
-- Minimum buy per transaction (Kshs) — pulled from dashboard config
+- Maximum buy per transaction (Kshs) — pulled from dashboard configuration.
+- Minimum buy per transaction (Kshs) — pulled from dashboard configuration.
 
 **API calls:**
 https://api.mzynga.com/updateorder
